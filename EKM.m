@@ -3,6 +3,11 @@ classdef EKM
 	
 	properties (Constant)
 		
+		% Kezdeti értékek
+		v_0 = 20;
+		w_0 = EKM.v_0/EKM.R_K;
+		
+		% Méretek
 		m = 1000;					% [kg]
 		g = 9.81;					% [N/kg] = [m/s^2]
 		
